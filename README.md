@@ -1,77 +1,65 @@
-# 💼 Portfolio Collection
+# Portfolio Collection
 
-A collection of modern, responsive portfolio website projects built to showcase creative layouts, personal branding, projects, skills, and professional information.
+A collection of three responsive portfolio website projects built to explore modern personal branding, UI/UX design, frontend development, and creative web presentation.
 
-This repository currently contains **two independent portfolio projects**, each maintained in its own directory.
+## ✨ Featured Portfolios
 
----
+### 1. Alex Portfolio
 
-## 📂 Projects
+A modern digital designer portfolio featuring a dark interface, soft purple/pink gradients, project showcases, profile information, and a clean navigation experience.
 
-### 1. Alex Wender Portfolio
+![Alex Portfolio Preview](./screenshots/alex-portfolio.png)
 
-📁 **Directory:** `alex-wender-main/alex-wender-main`
-
-A modern portfolio website designed to present a professional profile, skills, projects, experience, and personal information through a polished web interface.
-
-**Project:** [Alex Wender Portfolio](./alex-wender-main/alex-wender-main)
+**Project:** [View Alex Portfolio](./alex-wender-main/)
 
 ---
 
 ### 2. Artur Portfolio
 
-📁 **Directory:** `artur-main/artur-main`
+A creative portfolio layout focused on frontend development and UI/UX design. It includes recommendations, project/work galleries, education, work history, newsletter content, and a contact section.
 
-A separate portfolio website featuring its own design, layout, visual style, and project structure.
+![Artur Portfolio Preview](./screenshots/artur-portfolio.png)
 
-**Project:** [Artur Portfolio](./artur-main/artur-main)
-
----
-
-## 🗂️ Repository Structure
-
-```text
-portfolio/
-│
-├── alex-wender-main/
-│   └── alex-wender-main/
-│       ├── ...
-│       └── README.md
-│
-├── artur-main/
-│   └── artur-main/
-│       ├── ...
-│       └── README.md
-│
-└── README.md
-```
-
-Each portfolio is an **independent project** and can be developed, built, and deployed separately.
+**Project:** [View Artur Portfolio](./artur-main/)
 
 ---
 
-## ✨ Highlights
+### 3. My Portfolio
 
-* 🎨 Modern portfolio designs
-* 📱 Responsive layouts
-* 💻 Frontend-focused projects
-* 🧩 Independent project structures
-* 🚀 Suitable for deployment as separate websites
-* 📁 Organized monorepo-style structure
-* 🔄 Easy to maintain and customize
+A personal portfolio website with a photography-inspired hero section, About Me, Services, My Work, and Contact sections. The design uses a dark theme with bright accent colors and large visual sections.
+
+![My Portfolio Preview](./screenshots/my-portfolio.png)
+
+**Project:** [View My Portfolio](./my%20portfolio/)
 
 ---
 
 ## 🛠️ Technologies
 
-The technology stack may differ between the two portfolio projects.
+The projects are primarily built with web technologies such as:
 
-For the exact technologies, dependencies, installation instructions, and available scripts, refer to the README inside each individual project:
+- HTML5
+- CSS3
+- JavaScript
+- Responsive Web Design
+- UI/UX Design
+- Modern web layout and styling techniques
 
-* [Alex Wender Portfolio README](./alex-wender-main/alex-wender-main/README.md)
-* [Artur Portfolio README](./artur-main/artur-main/README.md)
+> The exact technologies may vary between the individual projects.
 
----
+## 📁 Repository Structure
+
+```text
+portfolio/
+├── README.md
+├── screenshots/
+│   ├── alex-portfolio.png
+│   ├── artur-portfolio.png
+│   └── my-portfolio.png
+├── alex-wender-main/
+├── artur-main/
+└── my portfolio/
+```
 
 ## 🚀 Running the Projects Locally
 
@@ -79,122 +67,41 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/Himanshu6389/portfolio.git
-```
-
-Move into the repository:
-
-```bash
 cd portfolio
 ```
 
-### Run the Alex Wender Portfolio
+Then open any project folder and follow the instructions in its `package.json` (if present).
 
-```bash
-cd alex-wender-main/alex-wender-main
-```
-
-Install dependencies if the project uses a package manager:
+For projects using npm:
 
 ```bash
 npm install
-```
-
-Start the development server:
-
-```bash
 npm run dev
 ```
 
----
-
-### Run the Artur Portfolio
-
-From the repository root:
-
-```bash
-cd artur-main/artur-main
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Start the development server:
-
-```bash
-npm run dev
-```
-
-> **Note:** The exact commands may vary depending on the project's configuration. Check the individual project README and `package.json` for the available scripts.
-
----
-
-## 🌐 Deployment
-
-The two portfolios are structured as independent applications, so they can be deployed separately.
-
-For example:
-
-```text
-Portfolio Repository
-        │
-        ├── Alex Portfolio
-        │      └── Live Website
-        │
-        └── Artur Portfolio
-               └── Live Website
-```
-
-Both projects can be deployed using platforms such as:
-
-* Vercel
-* Netlify
-* GitHub Pages
-* Other compatible hosting platforms
-
-Each project should use its respective project directory as the deployment root.
-
----
+If a project is a static HTML/CSS/JavaScript website, it can also be opened using a local development server such as VS Code Live Server.
 
 ## 📸 Screenshots
 
-Screenshots can be added here once the portfolios are deployed.
+Representative screenshots of all three portfolio projects are included in the [`screenshots`](./screenshots/) folder.
 
-### Alex Wender Portfolio
+## 🎯 Purpose
 
-> Add screenshots or a live preview here.
+This repository brings together multiple portfolio implementations to demonstrate:
 
-### Artur Portfolio
-
-> Add screenshots or a live preview here.
-
----
-
-## 🔗 Repository
-
-**GitHub:**
-https://github.com/Himanshu6389/portfolio
-
----
+- Personal portfolio design
+- Frontend development
+- UI/UX concepts
+- Responsive layouts
+- Creative visual presentation
+- Project showcase design
 
 ## 👨‍💻 Author
 
 **Himanshu Kumar**
 
-GitHub: [@Himanshu6389](https://github.com/Himanshu6389)
-
----
+GitHub: [Himanshu6389](https://github.com/Himanshu6389)
 
 ## 📄 License
 
-This repository is intended for portfolio and educational purposes.
-
-Please check the individual project files for any third-party assets, templates, libraries, or licenses used within each project.
-
----
-
-⭐ If you find these portfolio projects useful or inspiring, consider giving the repository a star!
-
-
+This repository is intended for portfolio and educational purposes. Check the individual project folders for any original template or third-party asset licensing information.
